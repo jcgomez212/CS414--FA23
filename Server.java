@@ -24,7 +24,7 @@ public class Server {
             int localPort = client.getLocalPort();
 
             // Prepare the message to send to the client
-            String message = "Hi, this is Rolf pleased to meet you! I see you are coming from " +
+            String message = "Hi, this is Juliana pleased to meet you! I see you are coming from " +
                              clientAddress.getHostAddress() + " using your remote port " + remotePort +
                              " accessing my port " + localPort;
 
